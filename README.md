@@ -11,3 +11,6 @@ public class MyspringbootappApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MyspringbootappApplication.class, args); // run the app
 <h2>Creating a REST API Controller</h2>
+Annotations:
+@RestController - class annotation<br>
+@GetMapping - method annotation that marks the method as GET-Request Handler
