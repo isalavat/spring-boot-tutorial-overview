@@ -10,7 +10,7 @@ Code: <br>
 public class MyspringbootappApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MyspringbootappApplication.class, args); // run the app
-<pre>
+</pre>
 <hr>
 <h2>Creating a REST API Controller</h2>
 Annotations:<br>
