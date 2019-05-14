@@ -41,4 +41,25 @@ spring-boot-devtolls dependency automatically restarts app when code was changed
 Spring Boot Actuator enables you to use several endpoints without writing them on your code. <br>
 These endpoint allow you to monitor your application. So you can get the informations about auditevents, registred beans, status of the app, mappings and so on ...
 You can expose all of the endpoints at once, for that you need to add the following<br> property with its value to you application properties file :<br>
-management.endpoints.web.exposure.include=* 
+management.endpoints.web.exposure.include=* <hr>
+<h1>Application Property file</h1>
+Use @Value to inject a value to your variables from app property file<br>
+Example:<br>
+<pre>
+	In Properties:  
+		coach.name=Mickey Mouse
+	In Code: 
+		@Value("${coach.name}")
+		private String coachName
+</pre>
+<hr>
+<h1>Spring Boot Properties</h1>
+You can configure Spring Boot Server in application.properties<br>
+The properties are roughly grouped into the following categories:<br>
+	<b>Core, Web, Security, Data, Actuator, Integration, Devtools, Testing.</b><br>
+You can config:<br>
+ 	logging (Trace, Debug, Info, Warn, error, Fatal, Off)
+	server (port, session timeout, servlet context-path)
+	actuator<br>
+
+
