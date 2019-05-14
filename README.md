@@ -35,4 +35,10 @@ For jar packaging do not use src/main/webapp directory, since it's ingnored and 
 template directory - for template engine FreeMarker, Thymeleaf, Mustasche<hr>
 <h2>Starter files</h2>
 Go to pom.xml->Dependency Hierarchy in order to explore starter files in eclipse<br>  
-Spring Boot Starter Parent<br>
+Spring Boot Starter Parent<hr>
+<h1>Spring Boot Dev Tools and Spring Boot Actuator</h1>
+spring-boot-devtolls dependency automatically restarts app when code was changed<br>
+Spring Boot Actuator enables you to use several endpoints without writing them on your code. <br>
+These endpoint allow you to monitor your application. So you can get the informations about auditevents, registred beans, status of the app, mappings and so on ...
+You can expose all of the endpoints at once, for that you need to add the following<br> property with its value to you application properties file :<br>
+management.endpoints.web.exposure.include=* 
