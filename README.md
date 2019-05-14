@@ -57,9 +57,12 @@ Example:<br>
 You can configure Spring Boot Server in application.properties<br>
 The properties are roughly grouped into the following categories:<br>
 	<b>Core, Web, Security, Data, Actuator, Integration, Devtools, Testing.</b><br>
-You can config:<br>
+<pre>
+You can config:
  	logging (Trace, Debug, Info, Warn, error, Fatal, Off)
 	server (port, session timeout, servlet context-path)
-	actuator<br>
-
+	actuator
+	spring security
+	data (jdbc-url, username, password)
+</pre>
 
