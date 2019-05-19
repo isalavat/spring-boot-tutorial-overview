@@ -1,3 +1,5 @@
+<h3>This project was developed as an example following the lessons of the Spring Framework and Hibernate Course of Chad Darby on Udemy (Spring & Hibernate for Beginners (Includes Spring Boot))<h3> <hr>
+
 <h1>#Spring Boot Overview</h1>
 Spring Boot uses Spring MVC, Spring REST, Spring Core, Spring AOP ....
 Spring Team provides free Spring Tool Suite (IDE Plugins)
